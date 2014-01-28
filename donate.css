@@ -1,0 +1,66 @@
+body {
+	font: .88em/150% Arial, Helvetica, sans-serif;
+	margin: 30px auto;
+}
+h1 {
+	font-size: 2.5em;
+	border-bottom: solid 1px #eee;
+	padding-bottom: 15px;
+	margin: 0 0 20px;
+}
+a {
+	color: #69C;
+	text-decoration: none;
+}
+a:hover {
+	color: #F30;
+}
+p {
+	margin: 0 0 10px;
+}
+div {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666;
+}
+em {
+	font: italic 100% "Times New Roman", Times, serif;
+}
+#wrap {
+	margin: 0 auto;
+	width: 600px;
+	padding-left: 150px;
+	position: relative;
+}
+#donate-container {
+	width:608px;
+	height:90px;
+	position:relative;
+}
+#donate-scale {
+	width:604px;
+	height:34px;
+	z-index:1;
+	background:url(growth-chart-scale.gif);
+	position:absolute;
+	top:56px; left:0px;
+}
+.donate-graphic {
+	width:586px;
+	height:51px;
+	position:absolute;
+	top:0px; left:7px;
+	z-index:0;
+}
+.donate-graphic.back {
+	z-index:1;
+	background:url(growth-chart-outline.gif);
+}
+.donate-graphic.front {
+	z-index:10;
+	background:url(growth-chart-fill.gif);
+	width:0px;
+}
+.numbers {
+	display: none;
+}
